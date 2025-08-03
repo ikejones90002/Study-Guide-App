@@ -216,8 +216,8 @@ body.dark .flashcard-section {
 }
 
 .flashcard {
-  width: 220px;
-  height: 140px;
+  width: 300px;
+  height: 300px;
   perspective: 1000px;
   cursor: pointer;
   position: relative;
