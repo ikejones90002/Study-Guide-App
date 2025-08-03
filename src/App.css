@@ -1,0 +1,407 @@
+/* General Styles */
+body {
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* Fallback for all text elements */
+body.dark h1, body.dark h2, body.dark h3, body.dark p, body.dark ul, body.dark li {
+  color: #fff;
+}
+
+.app {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+body.dark .app {
+  color: #fff;
+}
+
+/* Banner Styles */
+.banner {
+  background: linear-gradient(90deg, #0077cc 60%, #005fa3 100%);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 0 auto 1rem auto;
+  max-width: 900px;
+}
+
+body.dark .banner {
+  background: #2c2c2c;
+  color: #fff;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #333;
+  font-size: 0.9rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+body.dark .footer {
+  color: #fff;
+  border-top-color: #555;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(90deg, #0077cc 60%, #005fa3 100%);
+  padding: 1rem 2rem;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 2rem;
+}
+
+body.dark .navbar {
+  background: #2c2c2c;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+  padding: 0.2rem 0.7rem;
+  border-radius: 6px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  background: #fff;
+  color: #0077cc;
+}
+
+body.dark .navbar a.active,
+body.dark .navbar a:hover {
+  background: #444;
+  color: #66b3ff;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.dark-toggle {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  background-color: #fff;
+  color: #0077cc;
+  border: 1px solid #0077cc;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+body.dark .dark-toggle {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+.dark-toggle:hover {
+  background-color: #e0e0e0;
+}
+
+body.dark .dark-toggle:hover {
+  background-color: #444;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Quiz Styles */
+.quiz-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+body.dark .quiz-card {
+  background: #2c2c2c;
+  color: #fff;
+}
+
+.option, .quiz-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0.3rem 0;
+  border: 1px solid #0077cc;
+  border-radius: 5px;
+  background-color: #0077cc;
+  color: #fff;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+body.dark .option, body.dark .quiz-button {
+  background-color: #333;
+  border-color: #555;
+  color: #fff;
+}
+
+.option:hover, .quiz-button:hover {
+  background-color: #005fa3;
+}
+
+body.dark .option:hover, body.dark .quiz-button:hover {
+  background-color: #444;
+}
+
+.correct {
+  background-color: #c8f7c5;
+  color: #333;
+}
+
+body.dark .correct {
+  background-color: #2a4d2a;
+  color: #fff;
+}
+
+.wrong {
+  background-color: #f7c5c5;
+  color: #333;
+}
+
+body.dark .wrong {
+  background-color: #4d2a2a;
+  color: #fff;
+}
+
+/* Flashcards Styles */
+.flashcard-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+  padding-bottom: 5rem; /* Increased for button space */
+  color: #333;
+  transition: color 0.2s ease-in-out;
+  min-height: 500px; /* Increased for extra space */
+  box-sizing: border-box; /* Ensure padding/margins are calculated correctly */
+}
+
+body.dark .flashcard-section {
+  color: #fff;
+}
+
+.flashcard {
+  width: 220px;
+  height: 140px;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 8rem; /* Increased to prevent overlap */
+  margin-top: 2rem;
+  border: 1px solid red; /* Temporary for debugging */
+}
+
+.flashcard .front,
+.flashcard .back {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  background: #fff;
+  color: #333;
+  border: 2px solid #0077cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.5s, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  text-align: center;
+  word-break: break-word;
+  z-index: 1;
+}
+
+body.dark .flashcard .front,
+body.dark .flashcard .back {
+  background: #2c2c2c;
+  color: #fff;
+  border-color: #555;
+}
+
+.flashcard .back {
+  background: #f0f0f0;
+  color: #333;
+  transform: rotateY(180deg);
+}
+
+body.dark .flashcard .back {
+  background: #333;
+  color: #fff;
+}
+
+.flashcard.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flashcard.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.flashcard-button {
+  margin: 3rem 0; /* Increased for separation */
+  padding: 10px 20px;
+  border: 1px solid #0077cc;
+  border-radius: 5px;
+  background-color: #0077cc;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+  z-index: 0;
+  align-self: center; /* Ensure button is centered */
+  border: 1px solid blue; /* Temporary for debugging */
+}
+
+body.dark .flashcard-button {
+  background-color: #333;
+  border-color: #555;
+  color: #fff;
+}
+
+.flashcard-button:hover {
+  background-color: #005fa3;
+}
+
+body.dark .flashcard-button:hover {
+  background-color: #444;
+}
+
+/* Study Guide Styles */
+.study-guide {
+  padding: 1rem;
+  max-width: 900px;
+  margin: auto;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+body.dark .study-guide {
+  color: #fff;
+}
+
+.study-guide-img {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.study-guide h1 {
+  text-align: center; /* Center the h1 */
+  color: #0077cc;
+}
+
+body.dark .study-guide h1 {
+  color: #66b3ff;
+}
+
+.study-guide h2, .study-guide h3 {
+  color: #0077cc;
+}
+
+body.dark .study-guide h2, body.dark .study-guide h3 {
+  color: #66b3ff;
+}
+
+.study-guide p, .study-guide ul {
+  margin-bottom: 1rem;
+}
+
+.study-guide ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.study-guide .note {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-left: 4px solid #0077cc;
+  border-radius: 8px;
+}
+
+body.dark .study-guide .note {
+  background: #2c2c2c;
+  color: #fff;
+  border-color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .dark-toggle, .quiz-button, .flashcard-button {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+  .quiz-card, .flashcard-section, .study-guide {
+    padding: 1rem;
+  }
+  .flashcard-section {
+    margin: 2rem 0;
+    min-height: 400px; /* Adjusted for mobile */
+    padding-bottom: 4rem; /* Ensure button space */
+  }
+  .flashcard {
+    width: 180px;
+    height: 120px;
+    margin-bottom: 6rem; /* Maintain spacing */
+  }
+  .flashcard-button {
+    width: 100%;
+    padding: 12px;
+    margin: 3rem 0;
+  }
+  .banner {
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "front": "What is the generic name, class, and use of Zestril or Prinivil?",
+    "back": "Generic: lisinopril\nClass: Angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension (HTN), congestive heart failure (CHF), acute myocardial infarction"
+  },
+  {
+    "front": "What is the generic name, class, and use of Synthroid?",
+    "back": "Generic: levothyroxine\nClass: Thyroid\nUse: Hypothyroidism"
+  },
+  {
+    "front": "What is the generic name, class, and use of Glucophage?",
+    "back": "Generic: metformin\nClass: Biguanide\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zocor?",
+    "back": "Generic: simvastatin\nClass: HMG-CoA reductase inhibitor\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lipitor?",
+    "back": "Generic: atorvastatin\nClass: HMG-CoA reductase inhibitor\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lopressor?",
+    "back": "Generic: metoprolol tartrate\nClass: Beta-blocker\nUse: Hypertension (HTN), angina, myocardial infarction (MI)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Nexium?",
+    "back": "Generic: esomeprazole\nClass: Proton pump inhibitor (PPI)\nUse: Gastroesophageal reflux disease (GERD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vicodin?",
+    "back": "Generic: hydrocodone/acetaminophen\nClass: Opioid combination\nUse: Pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Norvasc?",
+    "back": "Generic: amlodipine besylate\nClass: Calcium channel blocker (CCB)\nUse: Hypertension (HTN), coronary artery disease"
+  },
+  {
+    "front": "What is the generic name, class, and use of hydrochlorothiazide?",
+    "back": "Generic: hydrochlorothiazide\nClass: Thiazide diuretic\nUse: Hypertension, peripheral edema"
+  },
+  {
+    "front": "What is the generic name, class, and use of ProAir HFA, Proventil HFA, or Ventolin HFA?",
+    "back": "Generic: albuterol\nClass: Beta-2 agonist\nUse: Bronchospasms"
+  },
+  {
+    "front": "What is the generic name, class, and use of Neurontin?",
+    "back": "Generic: gabapentin\nClass: Neurologic\nUse: Partial seizures, neuralgia, neuropathic pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zoloft?",
+    "back": "Generic: sertraline\nClass: Selective serotonin reuptake inhibitor (SSRI)\nUse: Depression, obsessive-compulsive disorder (OCD), panic disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cozaar?",
+    "back": "Generic: losartan\nClass: Angiotensin II receptor blocker (ARB)\nUse: Hypertension (HTN), diabetic nephropathy, stroke prevention"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lasix?",
+    "back": "Generic: furosemide\nClass: Loop diuretic\nUse: Edema, pulmonary edema, hypertension (HTN)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zithromax?",
+    "back": "Generic: azithromycin\nClass: Macrolide\nUse: Bacterial infection"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tylenol?",
+    "back": "Generic: acetaminophen\nClass: Central acting nonopioid\nUse: Analgesic and antipyretic"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tenormin?",
+    "back": "Generic: atenolol\nClass: Beta-blocker\nUse: Hypertension, angina, migraine headache prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Humulin N?",
+    "back": "Generic: insulin NPH\nClass: Insulin\nUse: Diabetes mellitus"
+  },
+  {
+    "front": "What is the generic name, class, and use of Flovent HFA?",
+    "back": "Generic: fluticasone\nClass: Corticosteroid\nUse: Asthma"
+  },
+  {
+    "front": "What is the generic name, class, and use of Celexa?",
+    "back": "Generic: citalopram\nClass: Selective serotonin reuptake inhibitor (SSRI)\nUse: Depression, obsessive-compulsive disorder (OCD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Pravachol?",
+    "back": "Generic: pravastatin\nClass: HMG-CoA reductase inhibitor\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Xanax?",
+    "back": "Generic: alprazolam\nClass: Benzodiazepine\nUse: Anxiety, panic disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Klor-Con, Klor-Con M, or Micro K?",
+    "back": "Generic: potassium chloride\nClass: Electrolyte\nUse: Potassium supplement"
+  },
+  {
+    "front": "What is the generic name, class, and use of Amoxil?",
+    "back": "Generic: amoxicillin\nClass: Penicillin\nUse: Bacterial infection"
+  },
+  {
+    "front": "What is the generic name, class, and use of Ultram?",
+    "back": "Generic: tramadol\nClass: Opioid\nUse: Pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Singulair?",
+    "back": "Generic: montelukast\nClass: Leukotriene receptor antagonist\nUse: Bronchospasms, allergic rhinitis"
+  },
+  {
+    "front": "What is the generic name, class, and use of trazodone?",
+    "back": "Generic: trazodone\nClass: Other antidepressant\nUse: Major depressive disorder, insomnia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Wellbutrin XL?",
+    "back": "Generic: bupropion\nClass: Other antidepressant\nUse: Depression, attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Crestor?",
+    "back": "Generic: rosuvastatin\nClass: HMG-CoA reductase inhibitor\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Coreg?",
+    "back": "Generic: carvedilol\nClass: Selective alpha- and nonselective beta-blocker\nUse: Hypertension (HTN), congestive heart failure (CHF), cardiovascular event prevention"
+  },
+  {
+    "front": "What is the generic name, class, and use of prednisone?",
+    "back": "Generic: prednisone\nClass: Corticosteroid\nUse: Corticosteroid-responsive conditions, adrenal insufficiency"
+  },
+  {
+    "front": "What is the generic name, class, and use of Advil?",
+    "back": "Generic: ibuprofen\nClass: Nonsteroidal antiinflammatory drug (NSAID)\nUse: Osteoarthritis, rheumatoid arthritis, dysmenorrhea, mild-moderate pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Prozac?",
+    "back": "Generic: fluoxetine\nClass: Selective serotonin reuptake inhibitor (SSRI)\nUse: Depression, obsessive-compulsive disorder (OCD), bulimia nervosa, panic disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Coumadin?",
+    "back": "Generic: warfarin\nClass: Vitamin K antagonist\nUse: Anticoagulant"
+  },
+  {
+    "front": "What is the generic name, class, and use of Plavix?",
+    "back": "Generic: clopidogrel\nClass: Antiplatelet\nUse: Thrombotic event prevention, acute coronary prevention"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zestoretic?",
+    "back": "Generic: hydrochlorothiazide/lisinopril\nClass: Thiazide/angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension"
+  },
+  {
+    "front": "What is the generic name, class, and use of Protonix?",
+    "back": "Generic: pantoprazole\nClass: Proton pump inhibitor (PPI)\nUse: Gastroesophageal reflux disease (GERD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Ambien?",
+    "back": "Generic: zolpidem\nClass: Gamma-aminobutyric acid-ergic agonist\nUse: Insomnia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Mobic?",
+    "back": "Generic: meloxicam\nClass: Nonsteroidal antiinflammatory drug (NSAID)\nUse: Osteoarthritis, rheumatoid arthritis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Klonopin?",
+    "back": "Generic: clonazepam\nClass: Benzodiazepine\nUse: Seizure disorder, panic disorder, anxiety"
+  },
+  {
+    "front": "What is the generic name, class, and use of DiaBeta?",
+    "back": "Generic: glyburide\nClass: Sulfonylurea\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of cyclobenzaprine?",
+    "back": "Generic: cyclobenzaprine\nClass: Muscle relaxant\nUse: Muscle spasms, fibromyalgia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lantus?",
+    "back": "Generic: insulin glargine\nClass: Insulin\nUse: Diabetes mellitus type 1, diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lexapro?",
+    "back": "Generic: escitalopram\nClass: Selective serotonin reuptake inhibitor (SSRI)\nUse: Depression, anxiety"
+  },
+  {
+    "front": "What is the generic name, class, and use of TriNessa or Tri-Sprintec?",
+    "back": "Generic: norgestimate/ethinyl estradiol\nClass: Triphasic oral contraceptive\nUse: Contraception"
+  },
+  {
+    "front": "What is the generic name, class, and use of Effexor XR?",
+    "back": "Generic: venlafaxine\nClass: Serotonin and norepinephrine reuptake inhibitors (SNRI)\nUse: Depression, anxiety disorder, panic disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Advair Diskus or Advair HFA?",
+    "back": "Generic: fluticasone/salmeterol\nClass: β2-Agonist–corticosteroid\nUse: Asthma, chronic obstructive pulmonary disorder (COPD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zantac?",
+    "back": "Generic: ranitidine\nClass: H2 blocker\nUse: GERD, duodenal ulcer, gastric ulcer"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tricor?",
+    "back": "Generic: fenofibrate\nClass: Fibrate\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Flomax?",
+    "back": "Generic: tamsulosin\nClass: Alpha blocker\nUse: Benign prostatic hyperplasia (BPH), nephrolithiasis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Ativan?",
+    "back": "Generic: lorazepam\nClass: Benzodiazepine\nUse: Anxiety, insomnia, nausea/vomiting"
+  },
+  {
+    "front": "What is the generic name, class, and use of Adderall XR?",
+    "back": "Generic: dextroamphetamine/amphetamine\nClass: Amphetamine\nUse: Attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Concerta?",
+    "back": "Generic: methylphenidate\nClass: Central nervous system stimulant\nUse: Attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cymbalta?",
+    "back": "Generic: duloxetine\nClass: Serotonin and norepinephrine reuptake inhibitors (SNRI)\nUse: Depression, diabetic neuropathic pain, anxiety, fibromyalgia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Paxil?",
+    "back": "Generic: paroxetine\nClass: Selective serotonin reuptake inhibitor (SSRI)\nUse: Depression, obsessive-compulsive disorder (OCD), panic disorder, social anxiety disorder, posttraumatic stress disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Naprosyn?",
+    "back": "Generic: naproxen\nClass: Nonsteroidal antiinflammatory drug (NSAID)\nUse: Osteoarthritis, rheumatoid arthritis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Estrostep Fe, Loestrin Fe, Ortho Novum, Ovcon, or Tri-Norinyl?",
+    "back": "Generic: ethinyl estradiol/norethindrone\nClass: Monophasic estrogen/progestin\nUse: Contraception"
+  },
+  {
+    "front": "What is the generic name, class, and use of Hyzaar?",
+    "back": "Generic: losartan/hydrochlorothiazide\nClass: Angiotensin II receptor blocker (ARB)/thiazide combination\nUse: Hypertension (HTN), stroke prevention"
+  },
+  {
+    "front": "What is the generic name, class, and use of OxyContin?",
+    "back": "Generic: oxycodone\nClass: Opioid\nUse: Severe chronic pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zyloprim?",
+    "back": "Generic: allopurinol\nClass: Xanthine oxidase inhibitor\nUse: Gout, hyperuricemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Estrace?",
+    "back": "Generic: estradiol\nClass: Estrogen\nUse: Vasomotor symptoms, hypoestrogenism"
+  },
+  {
+    "front": "What is the generic name, class, and use of lovastatin?",
+    "back": "Generic: lovastatin\nClass: HMG-CoA reductase inhibitor\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Amaryl?",
+    "back": "Generic: glimepiride\nClass: Sulfonylureas\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cardizem CD or Cardizem LA?",
+    "back": "Generic: diltiazem\nClass: Calcium channel blocker\nUse: Angina, hypertension"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lamictal?",
+    "back": "Generic: lamotrigine\nClass: Antiepileptic\nUse: Bipolar disorder, partial seizures"
+  },
+  {
+    "front": "What is the generic name, class, and use of Seroquel XR?",
+    "back": "Generic: quetiapine fumarate\nClass: Antipsychotic\nUse: Schizophrenia, bipolar disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vitamin D2?",
+    "back": "Generic: ergocalciferol\nClass: Vitamin\nUse: Vitamin D deficiency, hypoparathyroidism"
+  },
+  {
+    "front": "What is the generic name, class, and use of Catapres-TTS?",
+    "back": "Generic: clonidine\nClass: Alpha agonist\nUse: Hypertension (HTN), Tourette syndrome"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lyrica?",
+    "back": "Generic: pregabalin\nClass: Neurologic\nUse: Neuropathic pain, neuralgia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Spiriva Handihaler?",
+    "back": "Generic: tiotropium\nClass: Anticholinergic\nUse: Chronic obstructive pulmonary disease (COPD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Dyazide or Maxzide?",
+    "back": "Generic: triamterene/hydrochlorothiazide\nClass: Potassium sparing/thiazide diuretic combination\nUse: Hypertension (HTN), peripheral edema"
+  },
+  {
+    "front": "What is the generic name, class, and use of amitriptyline?",
+    "back": "Generic: amitriptyline\nClass: Tricyclic antidepressant (TCA)\nUse: Depression, neuropathic pain, fibromyalgia, migraine prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of folic acid?",
+    "back": "Generic: folic acid\nClass: Vitamin\nUse: Megaloblastic anemia, folate deficiency"
+  },
+  {
+    "front": "What is the generic name, class, and use of Topamax?",
+    "back": "Generic: topiramate\nClass: Antiepileptic\nUse: Seizure, migraine headache prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Aldactone?",
+    "back": "Generic: spironolactone\nClass: Potassium sparing diuretic\nUse: Congestive heart failure, hypertension, edema"
+  },
+  {
+    "front": "What is the generic name, class, and use of Novolog or Novolog Flexpen?",
+    "back": "Generic: insulin aspart\nClass: Insulin\nUse: Diabetes mellitus"
+  },
+  {
+    "front": "What is the generic name, class, and use of Symbicort?",
+    "back": "Generic: budesonide/formoterol\nClass: Corticosteroid/β2-Agonist\nUse: Asthma, chronic obstructive pulmonary disease (COPD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Inderal LA?",
+    "back": "Generic: propranolol\nClass: Beta-blocker\nUse: Hypertension, angina"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cipro?",
+    "back": "Generic: ciprofloxacin\nClass: Fluoroquinolone\nUse: Bacterial infection"
+  },
+  {
+    "front": "What is the generic name, class, and use of Voltaren XR?",
+    "back": "Generic: diclofenac\nClass: Nonsteroidal antiinflammatory drug (NSAID)\nUse: Osteoarthritis, rheumatoid arthritis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Valium?",
+    "back": "Generic: diazepam\nClass: Benzodiazepine\nUse: Anxiety, sedation"
+  },
+  {
+    "front": "What is the generic name, class, and use of Diovan?",
+    "back": "Generic: valsartan\nClass: Angiotensin II receptor blocker (ARB)\nUse: Hypertension (HTN), congestive heart failure (CHF)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zetia?",
+    "back": "Generic: ezetimibe\nClass: Other dyslipidemia agent\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vasotec?",
+    "back": "Generic: enalapril\nClass: Angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension (HTN), congestive heart failure (CHF)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Fosamax Plus D?",
+    "back": "Generic: alendronate/cholecalciferol\nClass: Bisphosphonate\nUse: Osteoporosis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vyvanse?",
+    "back": "Generic: lisdexamfetamine\nClass: Central nervous system (CNS) stimulant\nUse: Attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Keflex?",
+    "back": "Generic: cephalexin\nClass: Cephalosporin\nUse: Bacterial infection"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vistaril?",
+    "back": "Generic: hydroxyzine\nClass: Antihistamine\nUse: Anxiety, pruritis, urticaria"
+  },
+  {
+    "front": "What is the generic name, class, and use of Xalatan?",
+    "back": "Generic: latanoprost\nClass: Prostaglandin analog\nUse: Glaucoma"
+  },
+  {
+    "front": "What is the generic name, class, and use of buspirone?",
+    "back": "Generic: buspirone\nClass: Nonbenzodiazepine anxiolytic\nUse: Anxiety"
+  },
+  {
+    "front": "What is the generic name, class, and use of Kariva?",
+    "back": "Generic: desogestrel/ethinyl estradiol\nClass: Biphasic oral contraceptive\nUse: Contraception"
+  },
+  {
+    "front": "What is the generic name, class, and use of isosorbide mononitrate?",
+    "back": "Generic: isosorbide mononitrate\nClass: Nitrate\nUse: Angina prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Altace?",
+    "back": "Generic: ramipril\nClass: Angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension (HTN), congestive heart failure (CHF)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zanaflex?",
+    "back": "Generic: tizanidine\nClass: Muscle relaxant\nUse: Spasticity"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lotensin?",
+    "back": "Generic: benazepril\nClass: Angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension (HTN), congestive heart failure (CHF)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Depakote ER?",
+    "back": "Generic: divalproex\nClass: Neurologic\nUse: Bipolar disorder, migraine headache, seizure disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Celebrex?",
+    "back": "Generic: celecoxib\nClass: Cyclooxygenase (COX)-2 inhibitor\nUse: Osteoarthritis, rheumatoid arthritis, dysmenorrhea, acute pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Propecia?",
+    "back": "Generic: finasteride\nClass: 5-α-reductase inhibitor\nUse: Male pattern baldness"
+  },
+  {
+    "front": "What is the generic name, class, and use of MS Contin?",
+    "back": "Generic: morphine\nClass: Opioid\nUse: Moderate-severe chronic pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of Januvia?",
+    "back": "Generic: sitagliptin\nClass: Dipeptidyl peptidase (DPP)-4 inhibitors\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Ditropan XL?",
+    "back": "Generic: oxybutynin\nClass: Urinary antispasmodic\nUse: Overactive bladder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Aricept?",
+    "back": "Generic: donepezil\nClass: Alzheimer disease/dementia agent\nUse: Alzheimer dementia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Premarin or Premarin Vaginal?",
+    "back": "Generic: conjugated estrogens\nClass: Estrogen\nUse: Vasomotor symptoms, vulvovaginal atrophy, osteoporosis prevention"
+  },
+  {
+    "front": "What is the generic name, class, and use of Procardia or Procardia XL?",
+    "back": "Generic: nifedipine\nClass: Calcium channel blocker (CCB)\nUse: Angina"
+  },
+  {
+    "front": "What is the generic name, class, and use of Bactrim DS?",
+    "back": "Generic: trimethoprim/sulfamethoxazole\nClass: Sulfonamide\nUse: Bacterial infection, urinary tract infection (UTI)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Augmentin?",
+    "back": "Generic: amoxicillin/clavulanate\nClass: Penicillin\nUse: Bacterial infection"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vibramycin?",
+    "back": "Generic: doxycycline\nClass: Tetracycline\nUse: Bacterial infection, acne vulgaris"
+  },
+  {
+    "front": "What is the generic name, class, and use of Nasonex, Asmanex, or Asmanex Twisthaler?",
+    "back": "Generic: mometasone furoate\nClass: Corticosteroid\nUse: Allergic rhinitis (perennial and seasonal)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Remeron?",
+    "back": "Generic: mirtazapine\nClass: Other antidepressants\nUse: Major depressive disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zofran?",
+    "back": "Generic: ondansetron\nClass: Serotonin 5-HT3 antagonist\nUse: Chemotherapy-related nausea and vomiting"
+  },
+  {
+    "front": "What is the generic name, class, and use of Actos?",
+    "back": "Generic: pioglitazone\nClass: Thiazolidinedione\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Abilify?",
+    "back": "Generic: aripiprazole\nClass: Antipsychotic\nUse: Schizophrenia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Calan or Calan SR?",
+    "back": "Generic: verapamil\nClass: Calcium channel blocker (CCB)\nUse: Angina, hypertension, PSVT prevention, atrial fibrillation/flutter"
+  },
+  {
+    "front": "What is the generic name, class, and use of DiaBeta?",
+    "back": "Generic: glyburide\nClass: Sulfonylurea\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Diovan HCT?",
+    "back": "Generic: valsartan/hydrochlorothiazide\nClass: Angiotensin II receptor blocker (ARB)/thiazide combination\nUse: Hypertension (HTN)"
+  },
+  {
+    "front": "What is the generic name, class, and use of cyanocobalamin?",
+    "back": "Generic: cyanocobalamin (vitamin B12)\nClass: Vitamin\nUse: Vitamin B12 deficiency"
+  },
+  {
+    "front": "What is the generic name, class, and use of hydralazine?",
+    "back": "Generic: hydralazine\nClass: Nitrate\nUse: Hypertension, congestive heart failure"
+  },
+  {
+    "front": "What is the generic name, class, and use of Robaxin?",
+    "back": "Generic: methocarbamol\nClass: Muscle relaxant\nUse: Muscle spasm"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lanoxin?",
+    "back": "Generic: digoxin\nClass: Cardiac glycoside\nUse: Congestive heart failure (CHF), atrial fibrillation (AF)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Risperdal?",
+    "back": "Generic: risperidone\nClass: Antipsychotic\nUse: Schizophrenia, bipolar disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Keppra?",
+    "back": "Generic: levetiracetam\nClass: Antiepileptic\nUse: Seizure disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Plaquenil?",
+    "back": "Generic: hydroxychloroquine\nClass: Disease-modifying antirheumatic drug (DMARDs)\nUse: Rheumatoid arthritis, systemic lupus erythematosus, malaria prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lotrel?",
+    "back": "Generic: amlodipine/benazepril\nClass: Calcium channel blocker (CCB)/angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension"
+  },
+  {
+    "front": "What is the generic name, class, and use of propranolol/hydrochlorothiazide?",
+    "back": "Generic: propranolol/hydrochlorothiazide\nClass: Beta-blocker/thiazide diuretic\nUse: Hypertension"
+  },
+  {
+    "front": "What is the generic name, class, and use of Androgel?",
+    "back": "Generic: testosterone topical\nClass: Androgen\nUse: Hypogonadism"
+  },
+  {
+    "front": "What is the generic name, class, and use of Imitrex?",
+    "back": "Generic: sumatriptan\nClass: Serotonin 5-HT1 receptor agonist\nUse: Migraine headache, cluster headache"
+  },
+  {
+    "front": "What is the generic name, class, and use of Levaquin?",
+    "back": "Generic: levofloxacin\nClass: Fluoroquinolone\nUse: Bacterial infection"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cortef?",
+    "back": "Generic: hydrocortisone\nClass: Corticosteroid\nUse: Corticosteroid-responsive conditions, adrenal insufficiency"
+  },
+  {
+    "front": "What is the generic name, class, and use of Humalog or Humalog Kwikpen?",
+    "back": "Generic: insulin lispro\nClass: Insulin\nUse: Diabetes mellitus"
+  },
+  {
+    "front": "What is the generic name, class, and use of Medrol?",
+    "back": "Generic: methylprednisolone\nClass: Corticosteroid\nUse: Corticosteroid-responsive conditions, asthma"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lovaza?",
+    "back": "Generic: omega-3-acid ethyl esters\nClass: Esterified fish oils\nUse: Hypertriglyceridemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Bystolic?",
+    "back": "Generic: nebivolol\nClass: Beta-blocker\nUse: Hypertension (HTN)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Prevacid?",
+    "back": "Generic: lansoprazole\nClass: Proton pump inhibitor (PPI)\nUse: Gastroesophageal reflux disease (GERD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Nitrostat?",
+    "back": "Generic: nitroglycerin\nClass: Nitrate\nUse: Angina"
+  },
+  {
+    "front": "What is the generic name, class, and use of Restoril?",
+    "back": "Generic: temazepam\nClass: Benzodiazepine\nUse: Insomnia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Levemir?",
+    "back": "Generic: insulin detemir\nClass: Insulin\nUse: Diabetes mellitus type 1, diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of baclofen?",
+    "back": "Generic: baclofen\nClass: Muscle relaxant\nUse: Spasticity, hiccups"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cardura?",
+    "back": "Generic: doxazosin\nClass: Alpha-blocker\nUse: Hypertension, benign prostatic hypertrophy"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lopid?",
+    "back": "Generic: gemfibrozil\nClass: Fibrate\nUse: Hypertriglyceridemia, dyslipidemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Hytrin?",
+    "back": "Generic: terazosin\nClass: Alpha-blocker\nUse: Hypertension, benign prostatic hypertrophy"
+  },
+  {
+    "front": "What is the generic name, class, and use of Phenergan?",
+    "back": "Generic: promethazine\nClass: Antihistamine\nUse: Allergic conditions, motion sickness, nausea/vomiting"
+  },
+  {
+    "front": "What is the generic name, class, and use of Soma?",
+    "back": "Generic: carisoprodol\nClass: Central-acting muscle relaxant\nUse: Musculoskeletal pain"
+  },
+  {
+    "front": "What is the generic name, class, and use of ipratropium/albuterol?",
+    "back": "Generic: ipratropium/albuterol\nClass: Anticholinergic/β2-agonist\nUse: Chronic obstructive pulmonary disease (COPD), asthma"
+  },
+  {
+    "front": "What is the generic name, class, and use of Requip?",
+    "back": "Generic: ropinirole\nClass: Dopamine agonist\nUse: Parkinson disease, restless legs syndrome"
+  },
+  {
+    "front": "What is the generic name, class, and use of Triesence?",
+    "back": "Generic: triamcinolone\nClass: Corticosteroid\nUse: Ocular inflammation"
+  },
+  {
+    "front": "What is the generic name, class, and use of Gianvi?",
+    "back": "Generic: drospirenone/ethinyl estradiol\nClass: Monophasic oral contraceptive\nUse: Contraception"
+  },
+  {
+    "front": "What is the generic name, class, and use of Dilantin?",
+    "back": "Generic: phenytoin\nClass: Hydantoin\nUse: Status epilepticus, seizure disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zovirax?",
+    "back": "Generic: acyclovir\nClass: Antiviral\nUse: Herpes simplex"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tenoretic?",
+    "back": "Generic: atenolol/chlorthalidone\nClass: Beta-blocker/thiazide\nUse: Hypertension"
+  },
+  {
+    "front": "What is the generic name, class, and use of Seasonale?",
+    "back": "Generic: ethinyl estradiol/levonorgestrel\nClass: Monophasic (triphasic and quadraphasic) estrogen/progestins\nUse: Contraception"
+  },
+  {
+    "front": "What is the generic name, class, and use of Trileptal?",
+    "back": "Generic: oxcarbazepine\nClass: Seizure disorders\nUse: Partial seizures, trigeminal neuralgia, bipolar disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tessalon Perles?",
+    "back": "Generic: benzonatate\nClass: Antitussive\nUse: Cough"
+  },
+  {
+    "front": "What is the generic name, class, and use of Alphagan P?",
+    "back": "Generic: brimonidine tartrate\nClass: α-Agonist\nUse: Glaucoma"
+  },
+  {
+    "front": "What is the generic name, class, and use of meclizine?",
+    "back": "Generic: meclizine\nClass: Antihistamine\nUse: Motion sickness, vertigo"
+  },
+  {
+    "front": "What is the generic name, class, and use of Lithobid?",
+    "back": "Generic: lithium\nClass: Bipolar disorder\nUse: Bipolar disorder, schizophrenic disorder"
+  },
+  {
+    "front": "What is the generic name, class, and use of benztropine?",
+    "back": "Generic: benztropine\nClass: Anticholinergic\nUse: Parkinsonism"
+  },
+  {
+    "front": "What is the generic name, class, and use of Benicar?",
+    "back": "Generic: olmesartan\nClass: Angiotensin II receptor blocker (ARB)\nUse: Hypertension (HTN)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Adipex-P?",
+    "back": "Generic: phentermine\nClass: Sympathomimetic\nUse: Obesity"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cleocin?",
+    "back": "Generic: clindamycin\nClass: Antibiotic\nUse: Bacterial infections, bacterial vaginosis, pelvic inflammatory disease (PID)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Diflucan?",
+    "back": "Generic: fluconazole\nClass: Antifungal\nUse: Candidiasis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Pulmicort Respules?",
+    "back": "Generic: budesonide\nClass: Corticosteroid\nUse: Chronic obstructive pulmonary disease (COPD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Xarelto?",
+    "back": "Generic: rivaroxaban\nClass: Anticoagulant\nUse: Thromboembolism/stroke prophylaxis, deep vein thrombosis (DVT) prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Temovate?",
+    "back": "Generic: clobetasol\nClass: Corticosteroid\nUse: Steroid-responsive dermatoses"
+  },
+  {
+    "front": "What is the generic name, class, and use of Travatan Z?",
+    "back": "Generic: travoprost\nClass: Prostaglandin analog\nUse: Glaucoma"
+  },
+  {
+    "front": "What is the generic name, class, and use of Cordarone?",
+    "back": "Generic: amiodarone\nClass: Class III antiarrhythmic\nUse: Ventricular arrhythmias, atrial fibrillation, supraventricular arrhythmias"
+  },
+  {
+    "front": "What is the generic name, class, and use of Pamelor?",
+    "back": "Generic: nortriptyline\nClass: Tricyclic antidepressant (TCA)\nUse: Depression"
+  },
+  {
+    "front": "What is the generic name, class, and use of Namenda or Namenda XR?",
+    "back": "Generic: memantine\nClass: NMDA receptor agonist\nUse: Alzheimer dementia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Vytorin?",
+    "back": "Generic: ezetimibe/simvastatin\nClass: HMG CoA reductase combination\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of penicillin v?",
+    "back": "Generic: penicillin v\nClass: Penicillin\nUse: Bacterial infections, rheumatic fever prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Pentasa?",
+    "back": "Generic: mesalamine\nClass: Cyclooxygenase blocker/prostaglandin inhibitor\nUse: Crohn disease, ulcerative colitis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Armour Thyroid?",
+    "back": "Generic: thyroid\nClass: Thyroid\nUse: Hypothyroidism"
+  },
+  {
+    "front": "What is the generic name, class, and use of Pradaxa?",
+    "back": "Generic: dabigatran\nClass: Anticoagulant\nUse: Thromboembolism/stroke prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Janumet?",
+    "back": "Generic: sitagliptin/metformin\nClass: Biguanides/dipeptidyl peptidase (DPP)-4 inhibitors\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Beconase AQ?",
+    "back": "Generic: beclomethasone\nClass: Corticosteroid\nUse: Allergic rhinitis, nonallergic rhinitis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Accupril?",
+    "back": "Generic: quinapril\nClass: Angiotensin converting enzyme (ACE) inhibitor\nUse: Hypertension, congestive heart failure"
+  },
+  {
+    "front": "What is the generic name, class, and use of Valtrex?",
+    "back": "Generic: valacyclovir\nClass: Antiviral\nUse: Genital herpes simplex"
+  },
+  {
+    "front": "What is the generic name, class, and use of Atrovent HFA?",
+    "back": "Generic: ipratropium\nClass: Muscarinic antagonist\nUse: Chronic obstructive pulmonary disease (COPD), asthma"
+  },
+  {
+    "front": "What is the generic name, class, and use of chlorthalidone?",
+    "back": "Generic: chlorthalidone\nClass: Thiazide diuretic\nUse: Hypertension, edema"
+  },
+  {
+    "front": "What is the generic name, class, and use of Victoza?",
+    "back": "Generic: liraglutide\nClass: Glucagon-like peptide (GLP)-1 agonist\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Focalin XR?",
+    "back": "Generic: dexmethylphenidate\nClass: Central nervous system stimulant\nUse: Attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Arimidex?",
+    "back": "Generic: anastrozole\nClass: Hormonal oncologic\nUse: Breast cancer"
+  },
+  {
+    "front": "What is the generic name, class, and use of Pristiq?",
+    "back": "Generic: desvenlafaxine\nClass: Serotonin and norepinephrine reuptake inhibitors (SNRI)\nUse: Depression"
+  },
+  {
+    "front": "What is the generic name, class, and use of Aciphex?",
+    "back": "Generic: rabeprazole\nClass: Proton pump inhibitor (PPI)\nUse: Gastroesophageal reflux disease (GERD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Angiomax?",
+    "back": "Generic: bivalirudin\nClass: Thrombin inhibitor\nUse: Anticoagulant"
+  },
+  {
+    "front": "What is the generic name, class, and use of Detrol LA?",
+    "back": "Generic: tolterodine\nClass: Genitourinary (GU) antispasmodic\nUse: Overactive bladder"
+  },
+  {
+    "front": "What is the generic name, class, and use of Enbrel?",
+    "back": "Generic: etanercept\nClass: Tumor necrosis factor (TNF) inhibitor\nUse: Arthritis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Fluzone Quadrivalent?",
+    "back": "Generic: influenza A and B vaccine\nClass: Vaccine\nUse: Influenza A and B"
+  },
+  {
+    "front": "What is the generic name, class, and use of Humira?",
+    "back": "Generic: adalimumab\nClass: Tumor necrosis factor (TNF) inhibitor\nUse: Rheumatoid arthritis, ankylosing spondylitis, Crohn disease"
+  },
+  {
+    "front": "What is the generic name, class, and use of Strattera?",
+    "back": "Generic: atomoxetine\nClass: Norepinephrine reuptake inhibitor\nUse: Attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "front": "What is the generic name, class, and use of Toprol XL?",
+    "back": "Generic: metoprolol succinate\nClass: Beta-blocker\nUse: Hypertension (HTN), angina, chronic heart failure (CHF), migraine headache prophylaxis"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tylenol with codeine?",
+    "back": "Generic: acetaminophen/codeine\nClass: Opioid combination\nUse: Pain, cough"
+  },
+  {
+    "front": "What is the generic name, class, and use of Viagra?",
+    "back": "Generic: sildenafil\nClass: Phosphodiesterase type (PDE) 5 inhibitor\nUse: Erectile dysfunction"
+  },
+  {
+    "front": "What is the generic name, class, and use of Zyprexa?",
+    "back": "Generic: olanzapine\nClass: Antipsychotic\nUse: Schizophrenia, bipolar disease, depression"
+  },
+  {
+    "front": "What is the generic name, class, and use of Viibryd?",
+    "back": "Generic: vilazodone\nClass: Other antidepressant\nUse: Depression"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tradjenta?",
+    "back": "Generic: linagliptin\nClass: Dipeptidyl peptidase (DPP)-4 inhibitors\nUse: Diabetes mellitus type 2"
+  },
+  {
+    "front": "What is the generic name, class, and use of Tamiflu?",
+    "back": "Generic: oseltamivir\nClass: Neuramindase inhibitor\nUse: Influenza A and B"
+  },
+  {
+    "front": "What is the generic name, class, and use of Relpax?",
+    "back": "Generic: eletriptan\nClass: 5-HT receptor agonist\nUse: Migraine headache"
+  },
+  {
+    "front": "What is the generic name, class, and use of Niaspan?",
+    "back": "Generic: niacin\nClass: Dyslipidemia\nUse: Hypercholesterolemia"
+  },
+  {
+    "front": "What is the generic name, class, and use of Mirapex?",
+    "back": "Generic: pramipexole\nClass: Dopamine agonist\nUse: Parkinson disease, restless legs syndrome"
+  }
+]
