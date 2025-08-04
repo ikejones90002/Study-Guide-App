@@ -116,6 +116,202 @@ export default function StudyGuide() {
         <li><strong>Staff of Asclepius</strong>: Medical symbol (wingless staff, one snake).</li>
         <li><strong>Caduceus</strong>: Mistaken medical symbol (two snakes, wings), used by U.S. Army Medical Corps (1902).</li>
       </ul>
+
+      {/* Appended Pharmacy Law & HIPAA Content */}
+      <h2>Pharmacy Law & HIPAA</h2>
+      <h3>Key Agencies & Terms</h3>
+      <ul>
+        <li><strong>Pregnancy Categories</strong>: FDA system (1979) classifying fetal effects of drugs; now being reevaluated.</li>
+        <li><strong>Protected Health Information (PHI)</strong>: Patient health data protected by HIPAA; can’t be shared without permission.</li>
+        <li><strong>Pure Food and Drug Act of 1906</strong>: Prevented mislabeling/misbranding; led to FDA creation.</li>
+        <li><strong>Safety Data Sheet (SDS)</strong>: OSHA-required chemical safety info sheet.</li>
+        <li><strong>The Joint Commission (TJC)</strong>: Accredits US health care orgs; needed for Medicare/Medicaid payments.</li>
+        <li><strong>Tort</strong>: Wrongful act causing harm; intentional or due to negligence.</li>
+        <li><strong>United States Pharmacopeia (USP)</strong>: Sets quality standards for drugs, supplements, food ingredients.</li>
+        <li><strong>United States Pharmacopeia–National Formulary (USP–NF)</strong>: Standards for drugs, excipients, devices.</li>
+        <li><strong>US Drug Enforcement Administration (DEA)</strong>: Enforces controlled substance laws.</li>
+        <li><strong>US Food and Drug Administration (FDA)</strong>: Ensures safety, efficacy, security of drugs, food, devices, cosmetics.</li>
+      </ul>
+
+      <h3>FDA History Overview</h3>
+      <ul>
+        <li><strong>1862</strong>: FDA created under USDA.</li>
+        <li><strong>1906</strong>: Pure Food and Drug Act (Wiley Act).</li>
+        <li><strong>1930</strong>: Name shortened to FDA.</li>
+        <li><strong>1940</strong>: Moved to Federal Security Agency.</li>
+        <li><strong>1953</strong>: Placed under HEW.</li>
+        <li><strong>1980</strong>: Moved to US Dept. of Health & Human Services.</li>
+      </ul>
+
+      <h3>Major US Food & Drug Laws</h3>
+      <ul>
+        <li><strong>1906</strong>: Pure Food and Drug Act</li>
+        <li><strong>1912</strong>: International Opium Convention</li>
+        <li><strong>1914</strong>: Harrison Narcotics Act</li>
+        <li><strong>1938</strong>: Federal Food, Drug, and Cosmetic Act</li>
+        <li><strong>1951</strong>: Durham-Humphrey Amendment</li>
+        <li><strong>1962</strong>: Kefauver-Harris Amendments</li>
+        <li><strong>1970</strong>: Comprehensive Drug Abuse Prevention & Control Act</li>
+        <li><strong>1970</strong>: Poison Prevention Packaging Act</li>
+        <li><strong>1972</strong>: Drug Listing Act (NDC)</li>
+        <li><strong>1983</strong>: Orphan Drug Act</li>
+        <li><strong>1987</strong>: Prescription Drug Marketing Act</li>
+        <li><strong>1990</strong>: Anabolic Steroids Control Act</li>
+        <li><strong>1990</strong>: Omnibus Budget Reconciliation Act (OBRA ’90)</li>
+        <li><strong>1994</strong>: Dietary Supplement Health and Education Act</li>
+        <li><strong>1996</strong>: HIPAA</li>
+        <li><strong>2000</strong>: Drug Addiction Treatment Act (DATA 2000)</li>
+        <li><strong>2003</strong>: Medicare Modernization Act</li>
+        <li><strong>2005</strong>: Combat Methamphetamine Epidemic Act</li>
+        <li><strong>2006</strong>: Dietary Supplement & Nonprescription Drug Consumer Protection Act</li>
+        <li><strong>2010</strong>: Affordable Care Act</li>
+        <li><strong>2013</strong>: Drug Quality and Security Act</li>
+      </ul>
+
+      <h3>Key Law Summaries</h3>
+      <h4>1906 Pure Food and Drug Act</h4>
+      <ul>
+        <li>First law to stop sale of inaccurately labeled drugs.</li>
+        <li>Labels must be truthful.</li>
+        <li>Drugs must meet USP/NF standards.</li>
+      </ul>
+
+      <h4>1914 Harrison Narcotics Act</h4>
+      <ul>
+        <li>Restricted opium/coca products.</li>
+        <li>Required registration and documentation.</li>
+      </ul>
+
+      <h4>1938 Federal Food, Drug, and Cosmetic Act</h4>
+      <ul>
+        <li>Required proof of safety before marketing.</li>
+        <li>Introduced <strong>misbranding</strong> & <strong>adulteration</strong> definitions.</li>
+        <li>Required package inserts & directions.</li>
+      </ul>
+
+      <h4>1951 Durham-Humphrey Amendment</h4>
+      <ul>
+        <li>Distinguished <strong>legend drugs</strong> (Rx only) from OTC.</li>
+        <li>Required "Caution: Federal law prohibits dispensing without a prescription."</li>
+      </ul>
+
+      <h4>1962 Kefauver-Harris Amendments</h4>
+      <ul>
+        <li>Required proof of safety & effectiveness via well-controlled studies.</li>
+        <li>Required informed consent in clinical trials.</li>
+        <li>Transferred drug ad regulation to FDA.</li>
+        <li>GMP standards established.</li>
+      </ul>
+
+      <h4>1970 Comprehensive Drug Abuse Prevention and Control Act</h4>
+      <ul>
+        <li>Created DEA & drug schedules (I–V).</li>
+        <li>Schedule I = most restrictive (no accepted medical use).</li>
+      </ul>
+
+      <h4>1970 Poison Prevention Packaging Act (PPPA)</h4>
+      <ul>
+        <li>Required child-resistant caps (80% of kids can’t open; 90% of adults can).</li>
+        <li><strong>Exemptions</strong>: nitroglycerin SL, oral contraceptives in dial packs, certain hormone therapies, meds in hospitals/nursing homes, patient/physician request, etc.</li>
+      </ul>
+
+      <h4>1972 Drug Listing Act (NDC)</h4>
+      <ul>
+        <li>Every drug gets a unique <strong>10-digit NDC</strong>:</li>
+        <li>1. <strong>Labeler code</strong> (FDA-assigned)</li>
+        <li>2. <strong>Product code</strong> (strength, dosage form, formulation)</li>
+        <li>3. <strong>Package code</strong> (package size/type)</li>
+      </ul>
+
+      <h4>1983 Orphan Drug Act</h4>
+      <ul>
+        <li>Incentives for rare disease drugs (&lt;200,000 US patients).</li>
+        <li>Marketing exclusivity for 7 years.</li>
+      </ul>
+
+      <h4>1987 Prescription Drug Marketing Act</h4>
+      <ul>
+        <li>Regulated drug distribution.</li>
+        <li>Prevented counterfeit drugs.</li>
+        <li>Controlled pharmaceutical samples.</li>
+      </ul>
+
+      <h4>1990 OBRA ’90</h4>
+      <ul>
+        <li>Required pharmacists to offer counseling to Medicaid patients.</li>
+        <li>Required Drug Utilization Evaluation (DUE).</li>
+      </ul>
+
+      <h3>HIPAA & the Pharmacy Technician</h3>
+      <h4>What HIPAA Protects</h4>
+      <ul>
+        <li>All <strong>individually identifiable health information (PHI)</strong> in any form.</li>
+        <li>Applies to <strong>covered entities</strong> & <strong>business associates</strong>.</li>
+      </ul>
+
+      <h4>Pharmacy Rules</h4>
+      <ul>
+        <li>Share PHI only on a <strong>need-to-know basis</strong>.</li>
+        <li>OK to share with:</li>
+        <li>- Patient’s physician</li>
+        <li>- Patient’s insurer</li>
+        <li>- Patient themselves</li>
+        <li>- Authorized persons</li>
+      </ul>
+
+      <h4>Electronic Protections</h4>
+      <ul>
+        <li>Must use <strong>NIST-approved encryption</strong> for electronic PHI.</li>
+        <li>Decryption required to read PHI.</li>
+        <li>Log off computers when unattended.</li>
+      </ul>
+
+      <h4>Patient Rights</h4>
+      <ul>
+        <li>1. View & copy health records.</li>
+        <li>2. Request corrections.</li>
+        <li>3. Get notice of info use.</li>
+        <li>4. Approve or deny use for certain purposes (e.g., marketing).</li>
+        <li>5. Get a disclosure report.</li>
+        <li>6. File complaints.</li>
+        <li>7. Authorize/revoke info sharing anytime.</li>
+      </ul>
+
+      <h4>HIPAA Violations (Examples)</h4>
+      <ul>
+        <li>Discussing a patient’s health info in public.</li>
+        <li>Leaving PHI visible on computer screens.</li>
+        <li>Giving patient contact info to others.</li>
+        <li>Accessing records out of curiosity.</li>
+        <li>Giving drug info to unauthorized people.</li>
+      </ul>
+
+      <h4>Public Health Exceptions</h4>
+      <ul>
+        <li>PHI can be shared with:</li>
+        <li>- Public health authorities</li>
+        <li>- FDA (adverse events, recalls)</li>
+        <li>- People exposed to communicable disease</li>
+        <li>- Employers (OSHA requirements)</li>
+      </ul>
+
+      <h4>Law Enforcement Exceptions</h4>
+      <ul>
+        <li>Court orders</li>
+        <li>Locate suspect/fugitive</li>
+        <li>Victim info requests</li>
+        <li>Report deaths from suspected crime</li>
+        <li>Evidence of a crime on premises</li>
+        <li>Crime reporting in emergencies</li>
+      </ul>
+
+      <h4>Common Pharmacy Scenarios</h4>
+      <ul>
+        <li>Friend/family picks up Rx → <strong>OK</strong> if identified by patient.</li>
+        <li>Family calls to check if Rx is ready → <strong>OK</strong>, but no extra details.</li>
+        <li>Stranger interprets conversation → <strong>OK</strong> if patient agrees.</li>
+        <li>HIPAA notice acknowledgment in log book → <strong>OK</strong> if clearly stated.</li>
+      </ul>
     </div>
   );
 }
