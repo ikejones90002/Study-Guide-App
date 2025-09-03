@@ -117,7 +117,6 @@ export default function StudyGuide() {
         <li><strong>Caduceus</strong>: Mistaken medical symbol (two snakes, wings), used by U.S. Army Medical Corps (1902).</li>
       </ul>
 
-      {/* Appended Pharmacy Law & HIPAA Content */}
       <h2>Pharmacy Law & HIPAA</h2>
       <h3>Key Agencies & Terms</h3>
       <ul>
@@ -312,6 +311,53 @@ export default function StudyGuide() {
         <li>Stranger interprets conversation → <strong>OK</strong> if patient agrees.</li>
         <li>HIPAA notice acknowledgment in log book → <strong>OK</strong> if clearly stated.</li>
       </ul>
+
+      {/* Appended PTCB® Content Outline Summary */}
+      <h2>PTCB® Content Outline – Summary</h2>
+
+      <h3>1. Medications (40%)</h3>
+      <ul>
+        <li>Generic/brand names & classifications</li>
+        <li>Therapeutic equivalence</li>
+        <li>Drug interactions & contraindications (drug–drug, drug–disease, drug–diet, etc.)</li>
+        <li>Strengths, dosage forms, routes, administration instructions, therapy duration</li>
+        <li>Side effects, adverse reactions, allergies</li>
+        <li>Indications of meds & supplements</li>
+        <li>Drug stability (e.g., insulin, vaccines, reconstitutables)</li>
+        <li>Narrow therapeutic index (NTI) drugs</li>
+        <li>Incompatibilities in compounding/reconstitution</li>
+        <li>Storage requirements (temperature, light, restricted access)</li>
+      </ul>
+
+      <h3>2. Federal Requirements (12.5%)</h3>
+      <ul>
+        <li>Handling/disposal of hazardous & non-hazardous drugs, waste</li>
+        <li>Controlled substance Rx requirements (new, refill, transfer) & DEA schedules</li>
+        <li>Federal rules for controlled substances (receiving, ordering, labeling, storage, dispensing, loss/theft)</li>
+        <li>Restricted drug programs & REMS (e.g., pseudoephedrine)</li>
+        <li>FDA recalls (classes, meds, devices, supplements)</li>
+      </ul>
+
+      <h3>3. Patient Safety & Quality Assurance (26.25%)</h3>
+      <ul>
+        <li>High-alert & look-alike/sound-alike (LASA) meds</li>
+        <li>Error prevention (Tall Man lettering, zeros, barcodes, abbreviations)</li>
+        <li>Issues requiring pharmacist intervention (DUR, ADE, OTC recs, adherence, allergies, interactions)</li>
+        <li>Event reporting (errors, adverse effects, product issues, MedWatch, RCA, near misses)</li>
+        <li>Types of prescription errors (wrong drug, dose, patient, quantity, early refill)</li>
+        <li>Hygiene & cleaning (handwashing, PPE, trays, counters, equipment)</li>
+      </ul>
+
+      <h3>4. Order Entry & Processing (21.25%)</h3>
+      <ul>
+        <li>Non-sterile compounding (ointments, mixtures, liquids, suppositories, enemas)</li>
+        <li>Math: formulas, ratios, alligations, conversions, sig codes, abbreviations, med terms, days’ supply</li>
+        <li>Supplies/equipment (unit dose, syringes, diabetic supplies, spacers, packaging)</li>
+        <li>Lot numbers, expiration dates, NDC codes</li>
+        <li>Returning meds (dispensable vs. non-dispensable, expired, reverse distribution, credit return)</li>
+      </ul>
+
+      <p><strong>Key Note</strong>: Some sections include <strong>calculation-based knowledge</strong> (dosages, dilutions, days’ supply, etc.).</p>
     </div>
   );
 }
