@@ -12,14 +12,14 @@ export default function Quiz({ soundEnabled }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [shuffledQuestions, setShuffledQuestions] = useState([]); // State to hold shuffled questions
-  const [timeLeft, setTimeLeft] = useState(3600); // 60 minutes in seconds
+  const [shuffledQuestions, setShuffledQuestions] = useState([]);
+  const [timeLeft, setTimeLeft] = useState(3600);
+  const [userAnswers, setUserAnswers] = useState([]); // Track user answers
+  const [showReview, setShowReview] = useState(false); // Show review section
 
-  // Dynamically calculate passing score for 92 questions
   const totalQuestions = 92;
-  const passingScore = Math.ceil(totalQuestions * 0.75); // 69
+  const passingScore = Math.ceil(totalQuestions * 0.75);
 
-  // Merge all domain questions into one array
   const questions = [
     ...medications,
     ...federalRequirements,
@@ -27,7 +27,6 @@ export default function Quiz({ soundEnabled }) {
     ...orderEntry
   ];
 
-  // Shuffle questions and add isCorrect property to options
   useEffect(() => {
     const shuffled = [...questions].sort(() => Math.random() - 0.5);
     const questionsWithOptions = shuffled.map((question) => {
@@ -40,9 +39,8 @@ export default function Quiz({ soundEnabled }) {
     setShuffledQuestions(questionsWithOptions);
   }, []);
 
-  // Timer logic
   useEffect(() => {
-    if (showScore) {
+    if (showScore || showReview) {
       return;
     }
     const timerId = setInterval(() => {
@@ -57,9 +55,8 @@ export default function Quiz({ soundEnabled }) {
     }, 1000);
 
     return () => clearInterval(timerId);
-  }, [showScore]);
+  }, [showScore, showReview]);
 
-  // Trigger confetti on passing score
   useEffect(() => {
     if (showScore && score >= passingScore) {
       confetti();
@@ -69,10 +66,18 @@ export default function Quiz({ soundEnabled }) {
     }
   }, [showScore, score, passingScore]);
 
-  const handleAnswerOptionClick = (isCorrect) => {
+  const handleAnswerOptionClick = (isCorrect, selectedOption) => {
     if (isCorrect) {
       setScore(score + 1);
     }
+
+    // Save user's answer
+    const newUserAnswers = [...userAnswers];
+    newUserAnswers[currentQuestion] = {
+      selectedOption,
+      isCorrect
+    };
+    setUserAnswers(newUserAnswers);
 
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < shuffledQuestions.length) {
@@ -82,16 +87,113 @@ export default function Quiz({ soundEnabled }) {
     }
   };
 
+  const handleRestartQuiz = () => {
+    setCurrentQuestion(0);
+    setScore(0);
+    setShowScore(false);
+    setUserAnswers([]);
+    setShowReview(false);
+    setTimeLeft(3600);
+    
+    // Reshuffle questions
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+    const questionsWithOptions = shuffled.map((question) => {
+      const options = question.options.map((option) => ({
+        answerText: option,
+        isCorrect: option === question.answer,
+      }));
+      return { ...question, options };
+    });
+    setShuffledQuestions(questionsWithOptions);
+  };
+
+  // Get missed questions with user's answers
+  const getMissedQuestions = () => {
+    return shuffledQuestions
+      .map((question, index) => {
+        const userAnswer = userAnswers[index];
+        return {
+          ...question,
+          userAnswer: userAnswer ? userAnswer.selectedOption : null,
+          isCorrect: userAnswer ? userAnswer.isCorrect : false
+        };
+      })
+      .filter(question => !question.isCorrect);
+  };
+
+  if (showReview) {
+    const missedQuestions = getMissedQuestions();
+    
+    return (
+      <div className="quiz-container">
+        <div className="review-section">
+          <h2>Review Your Results</h2>
+          <div className="review-summary">
+            <p>You scored <strong>{score}</strong> out of <strong>{shuffledQuestions.length}</strong></p>
+            <p>{score >= passingScore ? 'Congratulations, you passed!' : 'Keep studying! You can do it!'}</p>
+            <p>You missed <strong>{missedQuestions.length}</strong> questions</p>
+          </div>
+          
+          <div className="missed-questions">
+            <h3>Missed Questions</h3>
+            {missedQuestions.length === 0 ? (
+              <p className="no-missed">Great job! You didn't miss any questions.</p>
+            ) : (
+              missedQuestions.map((question, index) => (
+                <div key={index} className="missed-question-card">
+                  <div className="question-text">
+                    <strong>Question {index + 1}:</strong> {question.question}
+                  </div>
+                  
+                  <div className="user-answer">
+                    <p><strong>Your Answer:</strong> {question.userAnswer}</p>
+                    <p className="incorrect">Incorrect</p>
+                  </div>
+                  
+                  <div className="correct-answer">
+                    <p><strong>Correct Answer:</strong> {question.answer}</p>
+                    {question.explanation && (
+                      <p className="explanation"><strong>Explanation:</strong> {question.explanation}</p>
+                    )}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+          
+          <div className="review-actions">
+            <button onClick={() => setShowReview(false)} className="btn-secondary">
+              Back to Results
+            </button>
+            <button onClick={handleRestartQuiz} className="btn-primary">
+              Restart Quiz
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="quiz-container">
       {showScore ? (
         <div className="score-section">
-          You scored {score} out of {shuffledQuestions.length}
-          {score >= passingScore ? (
-            <p>Congratulations, you passed!</p>
-          ) : (
-            <p>Keep studying! You can do it!</p>
-          )}
+          <h2>Quiz Completed!</h2>
+          <div className="score-display">
+            <p>You scored <strong>{score}</strong> out of <strong>{shuffledQuestions.length}</strong></p>
+            <p className="passing-status">
+              {score >= passingScore ? 'Congratulations, you passed!' : 'Keep studying! You can do it!'}
+            </p>
+          </div>
+          
+          <div className="score-actions">
+            <button onClick={() => setShowReview(true)} className="btn-primary">
+              Review Answers
+            </button>
+            <button onClick={handleRestartQuiz} className="btn-secondary">
+              Restart Quiz
+            </button>
+          </div>
         </div>
       ) : (
         <>
@@ -106,7 +208,10 @@ export default function Quiz({ soundEnabled }) {
             {shuffledQuestions[currentQuestion]?.options.map((option, index) => (
               <button
                 key={index}
-                onClick={() => handleAnswerOptionClick(option.isCorrect)}
+                onClick={() => handleAnswerOptionClick(option.isCorrect, option.answerText)}
+                className={userAnswers[currentQuestion] && userAnswers[currentQuestion].selectedOption === option.answerText 
+                  ? (option.isCorrect ? 'correct' : 'incorrect') 
+                  : ''}
               >
                 {option.answerText}
               </button>
