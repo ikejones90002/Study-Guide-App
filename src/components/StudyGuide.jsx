@@ -1,3 +1,5 @@
+import './study-guide.css';
+
 export default function StudyGuide() {
   return (
     <div className="study-guide">
@@ -61,13 +63,6 @@ export default function StudyGuide() {
         <li><strong>Dilution</strong>: Reducing concentration with an inactive diluent.</li>
         <li><strong>Additives</strong>: Medications/nutrients in IV solutions (e.g., TPN, PPN).</li>
         <li><strong>Beyond Use Date (BUD)</strong>: Expiry date for compounded medications.</li>
-      </ul>
-
-      <h2>Key Calculations</h2>
-      <ul>
-        <li><strong>Conversions</strong>: Metric, apothecary, household; Arabic/Roman numerals; Fahrenheit/Celsius; standard/military time.</li>
-        <li><strong>Fractions/Decimals</strong>: Used for precise dosing calculations.</li>
-        <li><strong>Percentage Strengths</strong>: Calculates mixture or solution concentrations.</li>
       </ul>
 
       <h2>History of Medicine and Pharmacy</h2>
@@ -358,6 +353,32 @@ export default function StudyGuide() {
       </ul>
 
       <p><strong>Key Note</strong>: Some sections include <strong>calculation-based knowledge</strong> (dosages, dilutions, days’ supply, etc.).</p>
+      
+      <h2>Key Calculations</h2>
+      <ul>
+        <li><strong>Conversions</strong>: Metric, apothecary, household; Arabic/Roman numerals; Fahrenheit/Celsius; standard/military time.</li>
+        <li><strong>Fractions/Decimals</strong>: Used for precise dosing calculations.</li>
+        <li><strong>Percentage Strengths</strong>: Calculates mixture or solution concentrations.</li>
+      </ul>
+
+      <h3>Roman Numerals Ⅰ – C (1 – 100)</h3>
+      <p>The table below lists numbers 1–100 with their Roman numeral equivalents.</p>
+      <div className="roman-table-container">
+        <table className="roman-table">
+          <tbody>
+            <tr><td>1 (I)</td><td>11 (XI)</td><td>21 (XXI)</td><td>31 (XXXI)</td><td>41 (XLI)</td><td>51 (LI)</td><td>61 (LXI)</td><td>71 (LXXI)</td><td>81 (LXXXI)</td><td>91 (XCI)</td></tr>
+            <tr><td>2 (II)</td><td>12 (XII)</td><td>22 (XXII)</td><td>32 (XXXII)</td><td>42 (XLII)</td><td>52 (LII)</td><td>62 (LXII)</td><td>72 (LXXII)</td><td>82 (LXXXII)</td><td>92 (XCII)</td></tr>
+            <tr><td>3 (III)</td><td>13 (XIII)</td><td>23 (XXIII)</td><td>33 (XXXIII)</td><td>43 (XLIII)</td><td>53 (LIII)</td><td>63 (LXIII)</td><td>73 (LXXIII)</td><td>83 (LXXXIII)</td><td>93 (XCIII)</td></tr>
+            <tr><td>4 (IV)</td><td>14 (XIV)</td><td>24 (XXIV)</td><td>34 (XXXIV)</td><td>44 (XLIV)</td><td>54 (LIV)</td><td>64 (LXIV)</td><td>74 (LXXIV)</td><td>84 (LXXXIV)</td><td>94 (XCIV)</td></tr>
+            <tr><td>5 (V)</td><td>15 (XV)</td><td>25 (XXV)</td><td>35 (XXXV)</td><td>45 (XLV)</td><td>55 (LV)</td><td>65 (LXV)</td><td>75 (LXXV)</td><td>85 (LXXXV)</td><td>95 (XCV)</td></tr>
+            <tr><td>6 (VI)</td><td>16 (XVI)</td><td>26 (XXVI)</td><td>36 (XXXVI)</td><td>46 (XLVI)</td><td>56 (LVI)</td><td>66 (LXVI)</td><td>76 (LXXVI)</td><td>86 (LXXXVI)</td><td>96 (XCVI)</td></tr>
+            <tr><td>7 (VII)</td><td>17 (XVII)</td><td>27 (XXVII)</td><td>37 (XXXVII)</td><td>47 (XLVII)</td><td>57 (LVII)</td><td>67 (LXVII)</td><td>77 (LXXVII)</td><td>87 (LXXXVII)</td><td>97 (XCVII)</td></tr>
+            <tr><td>8 (VIII)</td><td>18 (XVIII)</td><td>28 (XXVIII)</td><td>38 (XXXVIII)</td><td>48 (XLVIII)</td><td>58 (LVIII)</td><td>68 (LXVIII)</td><td>78 (LXXVIII)</td><td>88 (LXXXVIII)</td><td>98 (XCVIII)</td></tr>
+            <tr><td>9 (IX)</td><td>19 (XIX)</td><td>29 (XXIX)</td><td>39 (XXXIX)</td><td>49 (XLIX)</td><td>59 (LIX)</td><td>69 (LXIX)</td><td>79 (LXXIX)</td><td>89 (LXXXIX)</td><td>99 (XCIX)</td></tr>
+            <tr><td>10 (X)</td><td>20 (XX)</td><td>30 (XXX)</td><td>40 (XL)</td><td>50 (L)</td><td>60 (LX)</td><td>70 (LXX)</td><td>80 (LXXX)</td><td>90 (XC)</td><td>100 (C)</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
