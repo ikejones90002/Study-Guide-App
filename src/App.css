@@ -360,3 +360,42 @@ body.dark .flashcard-button:hover {
     margin: 0 0 1rem 0;
   }
 }
+.footer {
+  background-color: #f8f9fa; /* Light gray; adjust for dark mode if needed */
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.footer.dark {
+  background-color: #343a40;
+  color: #adb5bd;
+  border-top-color: #495057;
+}
+
+.dev-attribution p {
+  margin: 0 0 0.25rem 0;
+}
+
+.dev-attribution p:last-child {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
